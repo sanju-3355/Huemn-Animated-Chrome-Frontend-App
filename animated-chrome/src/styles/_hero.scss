@@ -1,0 +1,44 @@
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  background: white;
+ .search-bar {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+ }
+  .hero-logo {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .download-btn {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .update-link {
+    margin-top: 10px;
+    color: $primary-color;
+    cursor: pointer;
+  }
+
+  .qr-code {
+    margin-top: 20px;
+    img {
+      width: 100px;
+    }
+    p {
+      margin-top: 5px;
+    }
+  }
+}

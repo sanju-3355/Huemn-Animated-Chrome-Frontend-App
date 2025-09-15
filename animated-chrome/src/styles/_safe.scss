@@ -1,0 +1,89 @@
+.safe-section {
+  text-align: center;
+  padding: 50px 20px;
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+    .highlight {
+      background: rgba(66, 133, 244, 0.2);
+      color: #4285f4;
+      padding: 4px 8px;
+      border-radius: 10px;
+    }
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); // ✅ 2 per row
+    gap: 20px;                             // ✅ spacing
+    justify-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr; // ✅ stack on mobile
+    }
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    min-height: 220px;
+
+    h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+
+  .blue {
+    background-color: #4285f4;
+    color: white;
+  }
+
+  .light-blue {
+    background-color: #e8f0fe;
+    color: #202124;
+  }
+
+  .white {
+    background-color: white;
+    color: #202124;
+    border: 1px solid #ddd;
+  }
+
+  .dark-blue {
+    background-color: #1a73e8;
+    color: white;
+  }
+}

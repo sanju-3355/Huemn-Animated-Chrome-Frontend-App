@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #ddd;
+
+  .logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: $text-color;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    li a {
+      text-decoration: none;
+      color: $primary-color;
+    }
+  }
+}

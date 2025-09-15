@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'header';
+@import 'hero';
+@import 'features';
+@import 'safe';
+@import 'footer';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: $background-color;
+  color: $text-color;
+}
