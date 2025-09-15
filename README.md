@@ -3,7 +3,7 @@
 This project is a **React.js** application designed to replicate the look and feel of the Google Chrome download page. It features a clean, responsive design with sections like “Stay safe while you browse,” animations using Framer Motion, and grid layouts that adjust for different screen sizes.
 
 > Demo 
-> Link :  https://chaithu-bookstore.netlify.app/
+> Link :  https://chaithu-animated-chrome.netlify.app/
 
 ### Usage 
 
